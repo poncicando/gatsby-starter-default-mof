@@ -37,11 +37,15 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `2rem`,
+            background: `#530052`,
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `0 1.0875rem 1.45rem`,
           }}
         >
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.mof.gov.tl">Ministeriu das Financas</a>
         </footer>
       </div>
     </>
